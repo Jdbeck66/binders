@@ -1,6 +1,7 @@
 # Import required packages
 import Pkg
 
+Pkg.add["PyCall"]
 Pkg.add("BioSequences")
 Pkg.add("BlockArrays")
 Pkg.add("Colors")
