@@ -1,36 +1,4 @@
 # Import required packages
-import Pkg
-import Conda
-conda.add("matplotlib"; channel="conda-forge")
-
-Pkg.add("BioSequences")
-Pkg.add("BlockArrays")
-Pkg.add("Colors")
-Pkg.add("GraphPlot")
-Pkg.add("LightGraphs")
-Pkg.add("LinearAlgebra")
-Pkg.add("Plots")
-Pkg.add("PyCall")
-Pkg.add("Statistics")
-Pkg.add("StatsBase")
-Pkg.add("StatsPlots")
-
-using BioSequences
-using BlockArrays
-using Colors
-using GraphPlot
-using LightGraphs
-using LinearAlgebra
-using Pkg
-using Plots
-pyplot()
-using Statistics
-using StatsBase
-using StatsPlots
-
-
-
-
 #################################################
 # Make Dictionary or Tuples list of Nodes
 #################################################
