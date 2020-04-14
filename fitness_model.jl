@@ -1,5 +1,7 @@
 # Import required packages
 import Pkg
+import Conda
+conda.add("matplotlib"; channel="conda-forge")
 
 Pkg.add("BioSequences")
 Pkg.add("BlockArrays")
@@ -26,8 +28,7 @@ using Statistics
 using StatsBase
 using StatsPlots
 
-import Conda
-conda.add("matplotlib"; channel="conda-forge")
+
 
 
 #################################################
