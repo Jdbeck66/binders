@@ -1,4 +1,14 @@
 # Import required packages
+import Pkg
+Pkg.add("LightGraphs")
+Pkg.add("GraphPlot")
+Pkg.add("Statistics")
+Pkg.add("Plots")
+
+using LightGraphs
+using GraphPlot
+using Statistics
+using Plots
 #################################################
 # Make Dictionary or Tuples list of Nodes
 #################################################
