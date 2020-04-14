@@ -1,10 +1,10 @@
 # Import required packages
 import Pkg
 
-Pkg.add("PyCall")
 Pkg.add("BioSequences")
 Pkg.add("BlockArrays")
 Pkg.add("Colors")
+Pkg.add("Conda")
 Pkg.add("GraphPlot")
 Pkg.add("LightGraphs")
 Pkg.add("LinearAlgebra")
